@@ -98,7 +98,6 @@ function addKosarba(termekId) {
 
   kosar[termekId] = jelenlegiDb + 1;
   mentKosar();
-  alert(`"${termek.nev}" hozzáadva a kosárhoz.`);
 }
 
 // Kosár megjelenítése a Kosár fülön
