@@ -1,0 +1,130 @@
+{
+  "termekek": [
+    {
+      "id": 1,
+      "nev": "Piros rózsa csokor",
+      "ar": 4500,
+      "valuta": "HUF",
+      "keszlet": 12
+    },
+    {
+      "id": 2,
+      "nev": "Fehér liliom",
+      "ar": 3800,
+      "valuta": "HUF",
+      "keszlet": 7
+    },
+    {
+      "id": 3,
+      "nev": "Sárga tulipán",
+      "ar": 2900,
+      "valuta": "HUF",
+      "keszlet": 15
+    },
+    {
+      "id": 4,
+      "nev": "Vegyes tavaszi csokor",
+      "ar": 5200,
+      "valuta": "HUF",
+      "keszlet": 6
+    },
+    {
+      "id": 5,
+      "nev": "Orchidea (fehér)",
+      "ar": 6000,
+      "valuta": "HUF",
+      "keszlet": 9
+    },
+    {
+      "id": 6,
+      "nev": "Pünkösdi rózsa csokor",
+      "ar": 4900,
+      "valuta": "HUF",
+      "keszlet": 8
+    },
+    {
+      "id": 7,
+      "nev": "Vörös rózsa (szálanként)",
+      "ar": 750,
+      "valuta": "HUF",
+      "keszlet": 40
+    },
+    {
+      "id": 8,
+      "nev": "Levendula csokor",
+      "ar": 3100,
+      "valuta": "HUF",
+      "keszlet": 10
+    },
+    {
+      "id": 9,
+      "nev": "Gerbera vegyes színekben",
+      "ar": 3300,
+      "valuta": "HUF",
+      "keszlet": 14
+    },
+    {
+      "id": 10,
+      "nev": "Napraforgó csokor",
+      "ar": 4100,
+      "valuta": "HUF",
+      "keszlet": 11
+    },
+    {
+      "id": 11,
+      "nev": "Mini rózsa cserepes",
+      "ar": 2700,
+      "valuta": "HUF",
+      "keszlet": 13
+    },
+    {
+      "id": 12,
+      "nev": "Kaktusz ajándékcsomag",
+      "ar": 3500,
+      "valuta": "HUF",
+      "keszlet": 5
+    },
+    {
+      "id": 13,
+      "nev": "Bonsai fa",
+      "ar": 8900,
+      "valuta": "HUF",
+      "keszlet": 3
+    },
+    {
+      "id": 14,
+      "nev": "Amarillisz (cserepes)",
+      "ar": 4700,
+      "valuta": "HUF",
+      "keszlet": 6
+    },
+    {
+      "id": 15,
+      "nev": "Kála virágcsokor",
+      "ar": 5300,
+      "valuta": "HUF",
+      "keszlet": 7
+    },
+    {
+      "id": 16,
+      "nev": "Száraz virág dekoráció",
+      "ar": 3900,
+      "valuta": "HUF",
+      "keszlet": 8
+    },
+    {
+      "id": 17,
+      "nev": "Karácsonyi asztaldísz",
+      "ar": 6200,
+      "valuta": "HUF",
+      "keszlet": 4
+    },
+    {
+      "id": 18,
+      "nev": "Hortenzia cserepes",
+      "ar": 5100,
+      "valuta": "HUF",
+      "keszlet": 10
+    }
+  ]
+}
