@@ -1,20 +1,61 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oláh Virágok</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oláh Virágok</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-    <h1>Oláh Virágok - Termékek</h1>
+  <header>
+    <h1>Oláh Virágok</h1>
+    <nav>
+  <ul>
+    <li><a href="#" data-tab="landing" class="active">Főoldal</a></li>
+    <li><a href="#" data-tab="termekek">Termékek</a></li>
+    <li><a href="#" data-tab="kosar">Kosár</a></li> <!-- Megrendelés helyett kosár -->
+    <li><a href="#" data-tab="kontakt">Kapcsolat</a></li>
+  </ul>
+</nav>
   </header>
 
-  <main id="termekek-container">
-    <!-- Termékek -->
+  <main>
+    <section id="landing" class="tab-content active">
+      <h2>Üdvözlünk a RózsaVirágban!</h2>
+      <p>
+        Szeretettel kínáljuk a legszebb virágokat, csokrokat és növényeket.
+        Tekintsd meg termékeinket, rendelj kényelmesen online, vagy lépj velünk kapcsolatba!
+      </p>
+    </section>
+    
+<section id="termekek" class="tab-content">
+    <h2>Termékeink</h2>
+    <div id="termekek-container" class="termek-grid"></div>
+  </section>
+
+
+    <section id="kosar" class="tab-content">
+    <h2>Kosár</h2>
+    <div id="kosar-container"></div>
+    <div id="kosar-osszegzes" style="margin-top:1rem; font-weight:bold;"></div>
+    <button id="rendeles-gomb" style="margin-top:1rem; display:none;">Rendelés leadása</button>
+    <div id="rendeles-uzenet" style="margin-top:1rem; color:green; font-weight:bold;"></div>
+  </section>
+
+    <section id="kontakt" class="tab-content">
+      <h2>Kapcsolat</h2>
+      <p>
+        Telefon: +36 30 123 4567<br />
+        Email: info@rozsavirag.hu<br />
+        Cím: Virág utca 12, Budapest, 1053, Magyarország
+      </p>
+    </section>
   </main>
+
+  <footer>
+    <p>&copy; 2025 RózsaVirág</p>
+  </footer>
 
   <script src="app.js"></script>
 </body>
-
 </html>

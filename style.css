@@ -50,3 +50,171 @@ footer {
   color: #555;
 }
 
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #8bc34a;
+  color: white;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav ul li {
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #6fa430;
+}
+
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  min-height: 60vh;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+
+.termek-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  margin: 0.3rem 0;
+}
+
+
+form {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 400px;
+  margin-top: 1rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin: 0.8rem 0 0.3rem;
+  font-weight: bold;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 1rem;
+  background-color: #8bc34a;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #6fa430;
+}
+
+#order-message {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: green;
+  min-height: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  color: #555;
+  margin-top: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+input[type="number"] {
+  padding: 0.2rem;
+}
