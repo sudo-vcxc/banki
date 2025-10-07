@@ -1,0 +1,23 @@
+ALTER TABLE viragok MODIFY id INT AUTO_INCREMENT PRIMARY KEY; Ha elsőre konfliktusa van.
+
+
+
+INSERT INTO viragok (nev, ar, valuta, keszlet) VALUES
+('Piros rózsa csokor', 4500, 'HUF', 12),
+('Fehér liliom', 3800, 'HUF', 7),
+('Sárga tulipán', 2900, 'HUF', 15),
+('Vegyes tavaszi csokor', 5200, 'HUF', 6),
+('Orchidea (fehér)', 6000, 'HUF', 9),
+('Pünkösdi rózsa csokor', 4900, 'HUF', 8),
+('Vörös rózsa (szálanként)', 750, 'HUF', 40),
+('Levendula csokor', 3100, 'HUF', 10),
+('Gerbera vegyes színekben', 3300, 'HUF', 14),
+('Napraforgó csokor', 4100, 'HUF', 11),
+('Mini rózsa cserepes', 2700, 'HUF', 13),
+('Kaktusz ajándékcsomag', 3500, 'HUF', 5),
+('Bonsai fa', 8900, 'HUF', 3),
+('Amarillisz (cserepes)', 4700, 'HUF', 6),
+('Kála virágcsokor', 5300, 'HUF', 7),
+('Száraz virág dekoráció', 3900, 'HUF', 8),
+('Karácsonyi asztaldísz', 6200, 'HUF', 4),
+('Hortenzia cserepes', 5100, 'HUF', 10);
