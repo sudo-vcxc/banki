@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Termékek betöltése és megjelenítése
-  fetch("termekek.json")
+  fetch("get_products.php")
     .then(res => res.json())
     .then(data => {
       termekekData = data.termekek;
